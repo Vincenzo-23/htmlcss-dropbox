@@ -154,6 +154,10 @@ width: 100%;
     display: flex;
 }
 
+.subscription-type h4{
+    padding: 10px;
+}
+
 .row-subscription .col-4{
     border: 1px solid #dedede;
     margin: 0 20px;
@@ -164,7 +168,8 @@ width: 100%;
     text-align: center;
 }
 
-.subscription-list{
+.subscription-list,
+.plans-offer{
     display: flex;
     flex-direction: column;
     row-gap: 20px;
@@ -172,13 +177,18 @@ width: 100%;
 }
 
 .subscription-content{
-    padding: 0 20px;
+    padding: 0 30px;
     padding-top: 30px;
     display: flex;
     flex-direction: column;
     row-gap: 30px;
     font-size: 20px;
 }
+
+.subscription-content .blue-button{
+    font-size: 15px;
+}
+
 
 .blue-check{
     color: blue;
