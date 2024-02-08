@@ -60,7 +60,7 @@ width: 100%;
 }
 
 
-.col-4 ul{
+.row-header .col-4 ul{
     display: flex;
     gap: 20px;
     align-items: center;
@@ -131,7 +131,7 @@ width: 100%;
 
     /* Top part of subscription section */
 
-.subscription h2{
+.subscription-title{
     font-size: 50px;
     padding-top: 150px;
     margin-bottom: 50px;
@@ -140,15 +140,49 @@ width: 100%;
 
 .subscription label{
     margin-right: 40px;
-    padding-bottom: 50px;
 }
 
+
+.margin-bottom{
+    margin-bottom: 50px;
+}
 
     /* Middle part of subscription section*/
 
 
+.container-sm .row-subscription{
+    display: flex;
+}
 
+.row-subscription .col-4{
+    border: 1px solid #dedede;
+    margin: 0 20px;
+}
 
+.subscription-type{
+    border-bottom: 1px solid #dedede;
+    text-align: center;
+}
+
+.subscription-list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    
+}
+
+.subscription-content{
+    padding: 0 20px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    font-size: 20px;
+}
+
+.blue-check{
+    color: blue;
+}
 
     /* Bottom part of subscription section */
 
