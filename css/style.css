@@ -326,7 +326,7 @@ width: 100%;
 
 
 
-/* customer section left side */
+/* customer section left and right side */
 
 
 .customer-section-side{
@@ -337,7 +337,8 @@ width: 100%;
 
 .customer-section-side .col-6{
     width: calc(6 * 100% / 12);
-    padding: 70px 50px;
+    height: 250px;
+    padding: 70px;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -366,6 +367,28 @@ background-color: rgb(97, 8, 43);
 }
 
 
+.customer-section-side-left .col-6:nth-child(1){
+    background-color: rgb(255, 28, 28);
+}
+
+
+.customer-section-side-left .col-6:nth-child(2){
+    background-color: rgb(180, 208, 231);
+}
+
+
+.customer-section-side-left .col-6:nth-child(4){
+    background-color: rgb(13, 36, 129);
+}
+
+
+.customer-section-side-left .col-6:nth-child(4){
+    background-color: rgb(255, 216, 48);
+}
+
+
+
+
 
 /* customer section center */
 
@@ -386,6 +409,7 @@ background-color: rgb(97, 8, 43);
 
 
 
+/* FREE TRIAL SECTION */
 
 
 
