@@ -98,6 +98,7 @@ width: 100%;
 .row-hero .col-4 i{
     font-size: 50px;
     padding-bottom: 15px;
+    margin-top: auto;
 }
 
 .row-hero{
@@ -119,10 +120,6 @@ width: 100%;
 }
 
 
-.down-arrow{
-    margin-top: auto;
-}
-
 
 
 
@@ -133,7 +130,6 @@ width: 100%;
 
 .subscription-title{
     font-size: 50px;
-    padding-top: 150px;
     margin-bottom: 50px;
 }
 
@@ -147,54 +143,83 @@ width: 100%;
     margin-bottom: 50px;
 }
 
-    /* Middle part of subscription section*/
+.padding-top{
+    padding-top: 80px;
+}
 
 
-.container-sm .row-subscription{
+    /* Bottom part of subscription section */
+
+
+.row-subscription{
     display: flex;
+    flex-wrap: wrap;
 }
 
-.subscription-type h4{
-    padding: 10px;
-}
-
-.row-subscription .col-4{
-    border: 1px solid #dedede;
-    margin: 0 20px;
-}
-
-.subscription-type{
-    border-bottom: 1px solid #dedede;
-    text-align: center;
-}
-
-.subscription-list,
-.plans-offer{
-    display: flex;
-    flex-direction: column;
-    row-gap: 20px;
     
+.row-subscription .col-4{
+    width: calc(4 * 100% / 12);
+    border: 1px solid #dedede;
 }
 
-.subscription-content{
-    padding: 0 30px;
-    padding-top: 30px;
+.row-subscription .col-12{
+    width: 100%;
+    border: 1px solid #dedede;
+}
+
+
+.plan-content-header h4{
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #dedede;
+}
+
+.plan-content-body{
     display: flex;
     flex-direction: column;
     row-gap: 30px;
-    font-size: 20px;
 }
 
-.subscription-content .blue-button{
-    font-size: 15px;
+.plan-content-body > div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
 }
 
+
+.plan-content-body{
+    padding: 50px 30px;
+}
+
+
+.subscription-list,
+.subscription-points{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
 
 .blue-check{
     color: blue;
 }
 
-    /* Bottom part of subscription section */
+
+
+.plan-content-body-horizontal{
+    display: flex;
+    gap: 100px;
+    padding: 20px;
+    align-items: baseline;
+}
+
+.plan-content-body-horizontal .col-9 > div, h2{
+    padding: 20px 0;
+}
+
+
+
+
+
 
 
 
