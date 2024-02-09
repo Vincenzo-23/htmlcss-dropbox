@@ -9,6 +9,7 @@
 
 img {
 	max-width: 100%;
+    min-width: 50px
 }
 
 a {
@@ -194,6 +195,10 @@ width: 100%;
 }
 
 
+.plan-content-body div hr{
+    width: 30%;
+}
+
 .subscription-list,
 .subscription-points{
     display: flex;
@@ -288,8 +293,6 @@ width: 100%;
 
 
 
-
-
 /* TEAM SECTION */
 
 
@@ -297,10 +300,97 @@ width: 100%;
     margin-bottom: 150px;
 }
 
+.team-section h2{
+    font-size: 48px;
+}
 
 .team-section .container-sm h2{
     margin-bottom: 30px;
 }
+
+
+
+/* CUSTOMER SECTION */
+
+
+.row-customer-section{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+
+.row-customer-section .col-4{
+    width: calc(4 * 100% / 12);
+}
+
+
+
+/* customer section left side */
+
+
+.customer-section-side{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.customer-section-side .col-6{
+    width: calc(6 * 100% / 12);
+    padding: 70px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    
+}
+
+
+.customer-section-side .col-6:nth-child(1){
+    background-color: rgb(162, 211, 155);
+    
+}
+
+
+.customer-section-side .col-6:nth-child(2){
+background-color: rgb(97, 8, 43);
+}
+
+
+.customer-section-side .col-6:nth-child(3){
+    background-color: rgb(0, 147, 206);
+}
+    
+
+.customer-section-side .col-6:nth-child(4){
+    background-color: rgb(255, 28, 28);
+}
+
+
+
+/* customer section center */
+
+.customer-section-center img{
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.customer-section-center{
+    padding: 50px;
+}
+
+
+.customer-section-center hr{
+    margin-bottom: 30px;
+    width: 30%;
+}
+
+
+
+
+
+
+
+
 
 
 
