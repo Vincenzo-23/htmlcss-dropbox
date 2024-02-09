@@ -227,7 +227,8 @@ width: 100%;
 /* PARTNER SECTION */
 
 .partner-section{
-    margin-top: 150px;
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
 
 
@@ -251,6 +252,41 @@ width: 100%;
 .row-parnter-section .col-5 button{
  padding: 10px;   
 }
+
+
+
+
+
+
+/* OPERATION SECTION */
+
+.operation-section-title{
+    margin-bottom: 40px;
+}
+
+
+
+.row-operation-section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row-operation-section .col-4{
+    width: calc(4 * 100% / 12);
+    padding: 15px;
+}
+
+
+.row-operation-section .col-4 h3, p{
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+
 
 
 
