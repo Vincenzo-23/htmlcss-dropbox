@@ -227,8 +227,8 @@ width: 100%;
 /* PARTNER SECTION */
 
 .partner-section{
-    padding-top: 150px;
-    padding-bottom: 150px;
+    margin-top: 150px;
+    margin-bottom: 150px;
 }
 
 
@@ -281,13 +281,26 @@ width: 100%;
     margin-bottom: 40px;
 }
 
+.operation-section{
+    margin-bottom: 150px;
+}
 
 
 
 
 
 
+/* TEAM SECTION */
 
+
+.team-section{
+    margin-bottom: 150px;
+}
+
+
+.team-section .container-sm h2{
+    margin-bottom: 30px;
+}
 
 
 
