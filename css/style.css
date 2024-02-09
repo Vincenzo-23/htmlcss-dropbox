@@ -159,25 +159,27 @@ width: 100%;
     
 .row-subscription .col-4{
     width: calc(4 * 100% / 12);
-    border: 1px solid #dedede;
+    
+    padding: 0 20px;
 }
 
 .row-subscription .col-12{
     width: 100%;
-    border: 1px solid #dedede;
+    margin-top: 50px;
 }
 
 
 .plan-content-header h4{
     text-align: center;
     padding: 10px 0;
-    border-bottom: 1px solid #dedede;
+    border: 1px solid #dedede;
 }
 
 .plan-content-body{
     display: flex;
     flex-direction: column;
     row-gap: 30px;
+    border: 1px solid #dedede;
 }
 
 .plan-content-body > div{
@@ -210,7 +212,9 @@ width: 100%;
     gap: 100px;
     padding: 20px;
     align-items: baseline;
+    border: 1px solid #dedede;
 }
+
 
 .plan-content-body-horizontal .col-9 > div, h2{
     padding: 20px 0;
@@ -220,13 +224,33 @@ width: 100%;
 
 
 
+/* PARTNER SECTION */
+
+.partner-section{
+    margin-top: 150px;
+}
 
 
+.row-parnter-section{
+    display: flex;
+}
 
+.row-parnter-section .col-5{
+    width: calc(5 * 100% / 12);
+    padding: 50px;
+}
 
+.row-parnter-section .col-7{
+    width: calc(7 * 100% / 12);
+}
 
+.row-parnter-section .col-5 >*{
+    margin-bottom: 20px;
+}
 
-
+.row-parnter-section .col-5 button{
+ padding: 10px;   
+}
 
 
 
