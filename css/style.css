@@ -221,10 +221,10 @@ width: 100%;
 }
 
 
-.plan-content-body-horizontal .col-9 > div, h2{
+.plan-content-body-horizontal .col-9 > div,
+.plan-content-body-horizontal .col-9 h2{
     padding: 20px 0;
 }
-
 
 
 
@@ -377,7 +377,7 @@ background-color: rgb(97, 8, 43);
 }
 
 
-.customer-section-side-left .col-6:nth-child(4){
+.customer-section-side-left .col-6:nth-child(3){
     background-color: rgb(13, 36, 129);
 }
 
@@ -409,12 +409,38 @@ background-color: rgb(97, 8, 43);
 
 
 
+
+
 /* FREE TRIAL SECTION */
 
 
+.free-trial-section{
+    background-color: rgb(180, 208, 231);
+    padding: 70px 0;
+}
+
+
+.free-trial-section .container-sm{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+.free-trial-section-title{
+    padding: 50px;
+    color: rgb(97, 8, 43);
+    font-size: 35px;
+
+}
 
 
 
+.free-trial-section-button button{
+    padding: 15px 40px;
+}
 
 
 
