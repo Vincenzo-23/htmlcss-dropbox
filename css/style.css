@@ -447,6 +447,10 @@ background-color: rgb(97, 8, 43);
 
 /* FAQ SECTION */
 
+.faq-section{
+    padding: 150px 0;
+}
+
 .faq-section .question{
     display: flex;
     flex-wrap: wrap;
@@ -458,7 +462,6 @@ background-color: rgb(97, 8, 43);
 
 .faq-section-title{
     border-bottom: 2px solid #dedede;
-    padding-top: 150px;
     padding-bottom: 60px;
 }
 
