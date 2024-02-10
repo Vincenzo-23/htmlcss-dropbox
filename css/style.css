@@ -337,7 +337,7 @@ width: 100%;
 
 .customer-section-side .col-6{
     width: calc(6 * 100% / 12);
-    height: 250px;
+    height: 300px;
     padding: 70px;
     display: flex;
     flex-wrap: wrap;
@@ -441,6 +441,30 @@ background-color: rgb(97, 8, 43);
 .free-trial-section-button button{
     padding: 15px 40px;
 }
+
+
+
+
+/* FAQ SECTION */
+
+.faq-section .question{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 2px solid #dedede;
+    padding: 40px 0;
+}
+
+
+.faq-section-title{
+    border-bottom: 2px solid #dedede;
+    padding-top: 150px;
+    padding-bottom: 60px;
+}
+
+
+
+
 
 
 
