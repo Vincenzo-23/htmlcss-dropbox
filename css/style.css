@@ -155,32 +155,40 @@ width: 100%;
 .row-subscription{
     display: flex;
     flex-wrap: wrap;
+    row-gap: 50px;
 }
 
     
 .row-subscription .col-4{
     width: calc(4 * 100% / 12);
-    
     padding: 0 20px;
 }
 
 .row-subscription .col-12{
     width: 100%;
-    margin-top: 50px;
+}
+
+.plan-content-horizontal{
+    border: 1px solid #dedede;
 }
 
 
 .plan-content-header h4{
     text-align: center;
     padding: 10px 0;
-    border: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
 }
 
 .plan-content-body{
     display: flex;
     flex-direction: column;
     row-gap: 30px;
+    
+}
+
+.plan-content{
     border: 1px solid #dedede;
+    height: 100%;
 }
 
 .plan-content-body > div{
@@ -206,6 +214,13 @@ width: 100%;
     row-gap: 15px;
 }
 
+
+.subscription-list li,
+.subscription-points li{
+    display: flex;
+    gap: 10px;
+}
+
 .blue-check{
     color: blue;
 }
@@ -217,7 +232,7 @@ width: 100%;
     gap: 100px;
     padding: 20px;
     align-items: baseline;
-    border: 1px solid #dedede;
+    
 }
 
 
