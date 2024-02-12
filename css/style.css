@@ -493,16 +493,13 @@ footer{
     /* Footer options */
 
 .row-footer-options{
-display: flex;
-flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 
 }
 
 
-.row-footer-options .col-20{
-    width: 20%;
-    padding: 0 30px;
-}
 
 .row-footer-options .col-20 h3{
     margin-bottom: 30px;
