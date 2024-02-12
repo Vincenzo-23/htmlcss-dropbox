@@ -292,31 +292,38 @@ width: 100%;
 }
 
 
-.row-parnter-section{
+.row-partner-section{
     display: flex;
 }
 
-.row-parnter-section .col-5{
+.row-partner-section .col-5{
     width: calc(5 * 100% / 12);
     padding: 50px;
 }
 
-.row-parnter-section .col-7{
+.row-partner-section .col-7{
     width: calc(7 * 100% / 12);
 }
 
-.row-parnter-section .col-5 >*{
+.row-partner-section .col-5 >*{
     margin-bottom: 20px;
 }
 
-.row-parnter-section .col-5 button{
+.row-partner-section .col-5 button{
  padding: 10px;   
 }
 
 
 
+.row-partner-section img{
+   transition: filter 100ms ease-in-out;
+   filter: grayscale(1);
+   
+}
 
-
+.row-partner-section img:hover{
+    filter: grayscale(0);
+}
 
 /* OPERATION SECTION */
 
