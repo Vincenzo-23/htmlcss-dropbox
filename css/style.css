@@ -121,6 +121,46 @@ width: 100%;
 }
 
 
+/* animation */
+
+.bounce{
+    animation-name: bounce;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes bounce{
+
+    0% {
+        transform: translateY(0px);
+        
+    
+    }
+
+    50% {
+        transform: translateY(-30px);
+        
+    
+    }
+
+    100% {
+        transform: translateY(0px);
+         
+    }
+}
+
+
+/* transition */
+
+.blue-button{
+    transition: background-color 100ms ease-in-out;
+}
+
+
+.blue-button:hover{
+    background-color: rgba(0, 97, 255, 0.8);
+}
 
 
 
